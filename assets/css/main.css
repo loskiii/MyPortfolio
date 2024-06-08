@@ -461,7 +461,7 @@
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #ececec;
+		background: #a7e3e7;
 	}
 
 		#contact form {
@@ -480,7 +480,7 @@
 		}
 
 			#contact .column.social {
-				background: #e6e6e6;
+				background: #4dbde9;
 			}
 
 			@media screen and (max-width: 980px) {
