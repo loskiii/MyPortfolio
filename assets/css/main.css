@@ -100,7 +100,7 @@
 	}
 
 	body, input, select, textarea {
-		font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
+		font-family: "Poppins", sans-serif;
 		font-size: 13pt;
 		font-weight: 300;
 		line-height: 1.65;
@@ -1618,3 +1618,78 @@
 			}
 
 		}
+
+
+
+
+
+
+
+
+
+
+
+  
+  /*Responsive design  */
+  @media (max-width: 768px) {
+	#nav ul {
+	  flex-direction: column;
+	}
+	.gallery .media {
+	  width: 100%;
+	  height: auto;
+	}
+  }
+
+  /* Smooth scrolling effect */
+  html {
+	scroll-behavior: smooth;
+  }
+
+  /* Forms and button styles */
+ 
+
+   /*Footer styling  */
+   footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+
+.footer-content a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icons a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #aaa;
+}
+
+/* Icons could make use of a library like Font Awesome */
