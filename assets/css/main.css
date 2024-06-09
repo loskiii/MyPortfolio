@@ -1,8 +1,5 @@
 /* Icon size */
-.icon {
-	width: 80px;   
-	height: 80px; 
-  }
+
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600");
 
