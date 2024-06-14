@@ -46,3 +46,11 @@ Name: Geoffrey Chege
 Email: jeff@gmail.com
 Message: We mzee 
 
+Name: evol
+Email: evil@kisimani.com
+Message: Damn 
+
+Name: Asalam Aleikum
+Email: aleikumsalam@gmail.com
+Message: Don Pollo
+
