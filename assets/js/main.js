@@ -97,3 +97,35 @@
 	});
 
 })(jQuery);
+
+
+
+// Form submission
+$('form').on('submit', function(event) {
+	event.preventDefault();
+	
+	// Get the form data
+	var formData = $(this).serialize();
+	
+	// Send the form data to the server using AJAX
+	$.ajax({
+	  type: 'POST',
+	  url: 'your-php-script.php',
+	  data: formData,
+	  success: function(response) {
+		// Clear the form fields
+		$('form input, form textarea').val('');
+		
+		// Disable the form fields
+		$('form input, form textarea').prop('disabled', true);
+	  }
+	});
+  });
+
+  $('.reset-btn').click(function() {
+	$('#contact_form')[0].reset();
+	$('#contact_form input, #contact_form textarea').prop('disabled', false);
+  });
+
+  
+    
